@@ -28,6 +28,16 @@ Install
         ./configure && make
         src/chinadns -m -c chnroute.txt
 
+    Or install the latest version from git repository:
+
+        git clone https://github.com/shadowsocks/ChinaDNS.git
+        cd ChinaDNS
+        ./autogen.sh
+        ./configure && make
+        src/chinadns -m -c chnroute.txt
+
+    Optionally, you can put `chinadns` into `$PATH`.
+
 * OpenWRT
 
     * [Download precompiled] for OpenWRT trunk and CPU: ar71xx, brcm63xx,
