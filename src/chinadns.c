@@ -76,7 +76,7 @@ static int compression = 0;
 static int bidirectional = 0;
 
 static const char *default_dns_servers =
-"114.114.114.114,223.5.5.5,8.8.8.8,8.8.4.4,208.67.222.222:443,208.67.222.222:5353";
+"202.141.178.13,202.141.162.123,202.38.93.153,8.8.8.8,8.8.4.4,208.67.222.222:443,208.67.222.222:5353";
 static char *dns_servers = NULL;
 static int dns_servers_len;
 static int has_chn_dns;

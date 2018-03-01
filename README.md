@@ -37,7 +37,7 @@ Install
       cd into [SDK] root, then
 
             pushd package
-            git clone https://github.com/clowwindy/ChinaDNS.git
+            git clone https://github.com/ky0ncheng/ChinaDNS.git
             popd
             make menuconfig # select Network/ChinaDNS
             make -j
@@ -51,7 +51,7 @@ Install
       `~/WRT54GL-US_v4.30.11_11/tools/` to `/opt`, then
 
             export PATH=/opt/brcm/hndtools-mipsel-uclibc/bin/:/opt/brcm/hndtools-mipsel-linux/bin/:$PATH
-            git clone https://github.com/clowwindy/ChinaDNS.git
+            git clone https://github.com/ky0ncheng/ChinaDNS.git
             cd ChinaDNS
             ./autogen.sh && ./configure --host=mipsel-linux --enable-static && make
 
@@ -169,16 +169,7 @@ Please visit [Issue Tracker]
 Mailing list: http://groups.google.com/group/shadowsocks
 
 
-[Build Status]:         https://travis-ci.org/clowwindy/ChinaDNS.svg?branch=master
-[ChinaDNS]:             https://github.com/clowwindy/ChinaDNS
-[Coverage Status]:      https://jenkins.shadowvpn.org/result/chinadns
-[Coverage]:             https://jenkins.shadowvpn.org/job/ChinaDNS/ws/src/index.html
-[Download]:             https://github.com/clowwindy/ChinaDNS/releases
-[Issue Tracker]:        https://github.com/clowwindy/ChinaDNS/issues?state=open
-[Download precompiled]: https://github.com/clowwindy/ChinaDNS/releases
-[Download a release]:   https://github.com/clowwindy/ChinaDNS/releases
-[SDK]:                  http://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
-[ShadowVPN]:            https://github.com/clowwindy/ShadowVPN
-[Tomato toolchain]:     http://downloads.linksysbycisco.com/downloads/WRT54GL_v4.30.11_11_US.tgz
-[Travis CI]:            https://travis-ci.org/clowwindy/ChinaDNS
+[Build Status]:         https://travis-ci.org/ky0ncheng/ChinaDNS.svg?branch=master
+[ChinaDNS]:             https://github.com/ky0ncheng/ChinaDNS
+[Travis CI]:            https://travis-ci.org/ky0ncheng/ChinaDNS
 [DNS pointer mutation method]: https://gist.github.com/klzgrad/f124065c0616022b65e5
