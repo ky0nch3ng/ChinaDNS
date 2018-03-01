@@ -30,7 +30,7 @@ Install
 
     Or install the latest version from git repository:
 
-        git clone https://github.com/shadowsocks/ChinaDNS.git
+        git clone https://github.com/ky0ncheng/ChinaDNS.git
         cd ChinaDNS
         ./autogen.sh
         ./configure && make
