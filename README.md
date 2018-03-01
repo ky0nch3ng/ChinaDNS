@@ -20,12 +20,7 @@ Install
 
 * Linux / Unix
 
-    [Download a release].
-
-        ./configure && make
-        src/chinadns -m -c chnroute.txt
-
-    Or install the latest version from git repository:
+    install the latest version from git repository:
 
         git clone https://github.com/ky0ncheng/ChinaDNS.git
         cd ChinaDNS
@@ -62,9 +57,6 @@ Install
             cd ChinaDNS
             ./autogen.sh && ./configure --host=mipsel-linux --enable-static && make
 
-* Windows
-
-    [Download] Python exe version.
 
 Usage
 -----
