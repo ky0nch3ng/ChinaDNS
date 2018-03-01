@@ -2,7 +2,7 @@ ChinaDNS
 ========
 
 [![Build Status]][Travis CI]
-[![Coverage Status]][Coverage]
+
 
 Traditional way to bypass DNS poisoning is to send all queries to
 a foreign DNS server via VPN. However some Chinese websites will get
