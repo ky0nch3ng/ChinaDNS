@@ -141,7 +141,7 @@ Advanced
     -b BIND_ADDR          address that listens, default: 127.0.0.1
     -p BIND_PORT          port that listens, default: 53
     -s DNS                DNS servers to use, default:
-                          114.114.114.114,208.67.222.222:443,8.8.8.8
+                          202.38.93.153,208.67.222.222:443,8.8.8.8
     -m                    Using DNS compression pointer mutation
                           (backlist and delaying would be disabled)
     -v                    verbose logging
