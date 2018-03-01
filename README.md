@@ -1,9 +1,6 @@
 ChinaDNS
 ========
 
-[![Build Status]][Travis CI]
-
-
 Traditional way to bypass DNS poisoning is to send all queries to
 a foreign DNS server via VPN. However some Chinese websites will get
 bad results if they have CDNs outside the country.
@@ -174,12 +171,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Bugs and Issues
 ----------------
-Please visit [Issue Tracker]
-
 Mailing list: http://groups.google.com/group/shadowsocks
 
-
-[Build Status]:         https://travis-ci.org/ky0ncheng/ChinaDNS.svg?branch=master
 [ChinaDNS]:             https://github.com/ky0ncheng/ChinaDNS
-[Travis CI]:            https://travis-ci.org/ky0ncheng/ChinaDNS
 [DNS pointer mutation method]: https://gist.github.com/klzgrad/f124065c0616022b65e5
