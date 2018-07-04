@@ -26,7 +26,8 @@ Install
         cd ChinaDNS
         ./autogen.sh
         ./configure && make
-        src/chinadns -m -c chnroute.txt
+        #killall -HUP mDNSResponder
+        /src/chinadns -m -c chnroute.txt -v
 
     Optionally, you can put `chinadns` into `$PATH`.
 
